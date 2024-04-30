@@ -1,0 +1,4 @@
+$headers = @{
+    "Content-Type" = "application/json"
+}
+Invoke-WebRequest -Uri "http://localhost:8080/api/studenti/add" -Method POST -Body (Get-Content -Raw 3002.json) -Headers $headers

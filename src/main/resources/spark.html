@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Ecco una descrizione delle operazioni disponibili nell'applicazione:</h1>
+
+<h2>Studenti:</h2>
+<ul>
+    <li><code>GET("/api/studenti/")</code>: Restituisce tutti gli studenti.</li>
+    <li><code>GET("/api/studenti/:matricola")</code>: Restituisce un singolo studente in base alla matricola.</li>
+    <li><code>POST("/api/studenti/add")</code>: Aggiunge uno studente.</li>
+    <li><code>PUT("/api/studenti/change/:matricola")</code>: Modifica uno studente in base alla matricola.</li>
+    <li><code>DELETE("/api/studenti/remove/:matricola")</code>: Rimuove uno studente in base alla matricola.</li>
+</ul>
+
+<h2>Insegnanti:</h2>
+<ul>
+    <li><code>GET("/api/insegnanti/")</code>: Restituisce tutti gli insegnanti.</li>
+    <li><code>GET("/api/insegnanti/:matricola")</code>: Restituisce un singolo insegnante in base alla matricola.</li>
+    <li><code>POST("/api/insegnanti/add")</code>: Aggiunge un insegnante.</li>
+    <li><code>PUT("/api/insegnanti/change/:matricola")</code>: Modifica un insegnante in base alla matricola.</li>
+    <li><code>DELETE("/api/insegnanti/remove/:matricola")</code>: Rimuove un insegnante in base alla matricola.</li>
+</ul>
+
+<h2>Tecnici:</h2>
+<ul>
+    <li><code>GET("/api/tecnico/")</code>: Restituisce tutti i tecnici.</li>
+    <li><code>GET("/api/tecnico/:id")</code>: Restituisce un singolo tecnico in base all'ID.</li>
+    <li><code>POST("/api/tecnico/add")</code>: Aggiunge un tecnico.</li>
+    <li><code>DELETE("/api/tecnico/remove/:id")</code>: Rimuove un tecnico in base all'ID.</li>
+</ul>
+</body>
+</html>
